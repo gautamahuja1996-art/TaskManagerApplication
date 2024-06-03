@@ -1,0 +1,67 @@
+{% extends 'parent.html' %}
+
+<!-- writing the code for title block -->
+{% block title %}
+
+<title>About</title>
+
+{% endblock title %}
+
+<!-- This will contain the main part of the page -->
+{% block main %}
+<main>
+    <div class="container mt-3">
+        <h2 class="text-center mb-4">About Us</h2>
+
+        <div class="row mb-5">
+            <div class="col-md-12">
+                <h3>About Our Task Management Application</h3>
+                <p>Welcome to our Task Management Application! Our goal is to help you organize, prioritize, and
+                    accomplish your tasks efficiently. Our application offers a user-friendly interface, powerful
+                    features, and seamless integration to help you stay on top of your tasks.</p>
+            </div>
+        </div>
+
+        <div class="row mb-5">
+            <div class="col-md-12">
+                <h3>Our Team</h3>
+            </div>
+            <div class="col-md-4 team-member">
+                <div class="card">
+                    <img src="/static/images/CEO.jpg" class="card-img-top" alt="Team Member 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Ankit Vishwakarma</h5>
+                        <p class="card-text">CEO & Founder</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 team-member">
+                <div class="card">
+                    <img src="team-member2.jpg" class="card-img-top" alt="Team Member 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Jane Smith</h5>
+                        <p class="card-text">Chief Technology Officer</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 team-member">
+                <div class="card">
+                    <img src="team-member3.jpg" class="card-img-top" alt="Team Member 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Emily Johnson</h5>
+                        <p class="card-text">Product Manager</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mb-5">
+            <div class="col-md-12">
+                <h3>Our Values</h3>
+                <p>We believe in the power of collaboration, innovation, and customer satisfaction. Our team is
+                    dedicated to providing the best task management solution to help you achieve your goals.</p>
+            </div>
+        </div>
+    </div>
+</main>
+{% endblock main %}
