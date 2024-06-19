@@ -31,17 +31,17 @@
 
     <div class="container mt-4">
         <!-- Form for tasks -->
-        <form class="text-center border p-4 thick-border">
+        <form class="text-center border p-4 thick-border" action="/" method="post">
             <div class="d-flex justify-content-center">
                 <div class="mb-3 col-4">
                     <label for="taskTitle" class="form-label">Title</label>
-                    <input type="text" class="form-control" id="taskTitle">
+                    <input type="text" class="form-control" id="taskTitle" name="title">
                 </div>
             </div>
             <div class="d-flex justify-content-center">
                 <div class="mb-3 col-4">
                     <label for="taskDescription" class="form-label">Description</label>
-                    <textarea class="form-control" id="taskDescription" rows="3"></textarea>
+                    <textarea class="form-control" id="taskDescription" rows="3" name="description"></textarea>
                 </div>
             </div>
             <button type="submit" class="btn btn-primary btn-lg">Add</button>
